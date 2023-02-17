@@ -1,0 +1,28 @@
+{
+  "name": "@qrcode-rs/qrcode-linux-x64-gnu",
+  "version": "0.0.0",
+  "os": [
+    "linux"
+  ],
+  "cpu": [
+    "x64"
+  ],
+  "main": "qrcode.linux-x64-gnu.node",
+  "files": [
+    "qrcode.linux-x64-gnu.node"
+  ],
+  "description": "",
+  "author": "Florian Milcendeau",
+  "homepage": "https://github.com/FlorianMilcendeau/qrcode-rs#readme",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 10"
+  },
+  "repository": "https://github.com/FlorianMilcendeau/qrcode-rs.git",
+  "bugs": {
+    "url": "https://github.com/FlorianMilcendeau/qrcode-rs/issues"
+  },
+  "libc": [
+    "glibc"
+  ]
+}

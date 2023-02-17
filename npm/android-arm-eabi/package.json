@@ -1,0 +1,25 @@
+{
+  "name": "@qrcode-rs/qrcode-android-arm-eabi",
+  "version": "0.0.0",
+  "os": [
+    "android"
+  ],
+  "cpu": [
+    "arm"
+  ],
+  "main": "qrcode.android-arm-eabi.node",
+  "files": [
+    "qrcode.android-arm-eabi.node"
+  ],
+  "description": "",
+  "author": "Florian Milcendeau",
+  "homepage": "https://github.com/FlorianMilcendeau/qrcode-rs#readme",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 10"
+  },
+  "repository": "https://github.com/FlorianMilcendeau/qrcode-rs.git",
+  "bugs": {
+    "url": "https://github.com/FlorianMilcendeau/qrcode-rs/issues"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "@qrcode-rs/qrcode-freebsd-x64",
+  "version": "0.0.0",
+  "os": [
+    "freebsd"
+  ],
+  "cpu": [
+    "x64"
+  ],
+  "main": "qrcode.freebsd-x64.node",
+  "files": [
+    "qrcode.freebsd-x64.node"
+  ],
+  "description": "",
+  "author": "Florian Milcendeau",
+  "homepage": "https://github.com/FlorianMilcendeau/qrcode-rs#readme",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 10"
+  },
+  "repository": "https://github.com/FlorianMilcendeau/qrcode-rs.git",
+  "bugs": {
+    "url": "https://github.com/FlorianMilcendeau/qrcode-rs/issues"
+  }
+}

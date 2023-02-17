@@ -1,0 +1,25 @@
+{
+  "name": "@qrcode-rs/qrcode-win32-arm64-msvc",
+  "version": "0.0.0",
+  "os": [
+    "win32"
+  ],
+  "cpu": [
+    "arm64"
+  ],
+  "main": "qrcode.win32-arm64-msvc.node",
+  "files": [
+    "qrcode.win32-arm64-msvc.node"
+  ],
+  "description": "",
+  "author": "Florian Milcendeau",
+  "homepage": "https://github.com/FlorianMilcendeau/qrcode-rs#readme",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 10"
+  },
+  "repository": "https://github.com/FlorianMilcendeau/qrcode-rs.git",
+  "bugs": {
+    "url": "https://github.com/FlorianMilcendeau/qrcode-rs/issues"
+  }
+}
