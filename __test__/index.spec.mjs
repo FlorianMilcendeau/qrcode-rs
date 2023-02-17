@@ -1,7 +1,8 @@
 import test from 'ava'
 
-import { sum } from '../index.js'
+import {createQrCode} from '../index.js'
 
-test('sum from native', (t) => {
-  t.is(sum(1, 2), 3)
-})
+test("should create a qr code", (t) => {
+    const qrcode = createQrCode({owner: "0x2OWNER", entity: "0x3ENTITY"});
+    t.truthy(typeof qrcode === "string");
+});
